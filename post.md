@@ -49,7 +49,7 @@ So, it's nothing special, isn't it? Everybody does that!
 
 Maybe I'm wrong, but I think it's totally bad practice. Why?
 
-Every time when you want to change you ActionMailer settings you have to change code of your app. What if you hade one code for few projects? What would you do? Would you add conditions in your code?
+Every time when you want to change you ActionMailer settings you have to change code of your app. What if you had one code for few projects? What would you do? Would you add conditions in your code?
 
 That's why we should to find another way to configure our Rails application.
 
@@ -103,7 +103,7 @@ mailer:
     authentication: plain
 ```
 
-By means if line `service: smtp` you can select required configuration section for your ActionMailer. You can use the following values: `smtp`, `sandmail` or `test`.
+By means of line `service: smtp` you can select required configuration section for your ActionMailer. You can use the following values: `smtp`, `sandmail` or `test`.
 
 #### Step 5
 Finally, add code for ActionMailer configuration into **config/application.rb**. Your **config/application.rb** should look like this.
